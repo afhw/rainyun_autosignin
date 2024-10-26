@@ -17,3 +17,33 @@ jobs:
           -H "x-api-key: ${{ secrets.RAINYUN_API_KEY }}" \
           -d '{"task_name": "每日签到"}' \
           https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api7 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api2 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api3 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api4 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api5 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api6 }}" \
+          -d '{"task_name": "每日签到"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
