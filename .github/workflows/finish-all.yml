@@ -21,7 +21,6 @@ jobs:
           -H "x-api-key: ${{ secrets.RAINYUN_API_KEY }}" \
           -d '{"task_name": "关注雨云淘宝店"}' \
           https://api.v2.rainyun.com/user/reward/tasks
-          
         echo 正在完成关注b站任务
         curl -s -X POST \
           -H "Content-Type: application/json" \
@@ -29,9 +28,142 @@ jobs:
           -d '{"task_name": "关注雨云B站号"}' \
           https://api.v2.rainyun.com/user/reward/tasks
         echo 正在完成加入q群任务
-
         curl -s -X POST \
           -H "Content-Type: application/json" \
           -H "x-api-key: ${{ secrets.RAINYUN_API_KEY }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+          
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api2 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api2 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api2 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+          
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api3 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api3 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api3 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+          
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api4 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api4 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api4 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api5 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api5 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api5 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+
+
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api6 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api6 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api6 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api7 }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api7 }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api7 }}" \
+          -d '{"task_name": "加入Q群"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+
+        echo 正在完成关注淘宝任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api }}" \
+          -d '{"task_name": "关注雨云淘宝店"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成关注b站任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api }}" \
+          -d '{"task_name": "关注雨云B站号"}' \
+          https://api.v2.rainyun.com/user/reward/tasks
+        echo 正在完成加入q群任务
+        curl -s -X POST \
+          -H "Content-Type: application/json" \
+          -H "x-api-key: ${{ secrets.api }}" \
           -d '{"task_name": "加入Q群"}' \
           https://api.v2.rainyun.com/user/reward/tasks
